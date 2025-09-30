@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://4xlfs7r4d4ow"]
+
+[ext_resource type="Texture2D" uid="uid://drxfsb0fwo0rd" path="res://Gemini_Generated_Image_tx678ytx678ytx67.png" id="1_3mm25"]
+
+[node name="Goal" type="Node3D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 1026.0
+offset_bottom = 1027.0
+scale = Vector2(1.12555, 0.630642)
+texture = ExtResource("1_3mm25")
+
+[node name="VboxContainer" type="VBoxContainer" parent="Control"]
+layout_mode = 0
+offset_left = 535.0
+offset_top = 339.0
+offset_right = 635.0
+offset_bottom = 389.0
+
+[node name="WinButton" type="Button" parent="Control/VboxContainer"]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+text = "\"YOU WIN!\""
