@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=4 uid="uid://hkdwsyu0carw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wqh21"]
+resource_name = "Dirt"
+albedo_color = Color(0.78666, 0.563095, 0.532969, 1)
+roughness = 0.972438
+emission_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dlpqm"]
+resource_name = "Grass"
+albedo_color = Color(0.406649, 0.873327, 0.351924, 1)
+roughness = 0.964
+emission_enabled = true
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_k7rx8"]
+_surfaces = [{
+"aabb": AABB(-0.31649, 0.027546, -0.324629, 0.63298, 0.173804, 0.61711),
+"format": 34896613377,
+"index_count": 99,
+"index_data": PackedByteArray("AAABAAIAAQAAAAMAAgAEAAAAAwAFAAEABAACAAYABQADAAcABgAIAAQABQAJAAEABgAKAAgACwABAAkAAQALAAIAAgAMAAYADAACAAsACgAGAA0ADgAGAAwACwAOAAwABgAOAA0ADQAPAAoAEAANAA4ADwANABEADQAQABEAEQAHAA8ADgASABAAEgARABAACwASAA4ABwARABMAEQASABMABwATAAUAEgALABQAFAATABIAEwAUAAUAFAALAAkACQAFABQA"),
+"name": "Dirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 21,
+"vertex_data": PackedByteArray("Whn//7MyAABaGUqBszIAAP9/73gAAAAAAAD//6GkAAD/f+72AAAAAAAA73ihpAAApOZfmrMyAAAIR/////8AAKTm//+zMgAAxj0AAH9QAAD//0r2oaQAAP9/AADJLwAAOMIAAH9QAAD//+94oaQAAJPSAAD/mQAA9rj/////AAC/pAAA8dQAAPa4C4b//wAAP1sAAPHUAAAIRz2m//8AAGstAAD/mQAA")
+}, {
+"aabb": AABB(-0.31649, 0.194761, -0.324629, 0.63298, 0.023316, 0.61711),
+"format": 34359742465,
+"index_count": 57,
+"index_data": PackedByteArray("AAABAAIAAwACAAEAAQAEAAMABQADAAQAAwAFAAYAAgADAAYABwAGAAUAAgAIAAAACAACAAYACQAAAAgABgAHAAoACwAKAAcACwAJAAwACAAMAAkACgALAA0ABgAKAA0ADAANAAsABgANAAgADQAMAAgA"),
+"name": "Grass",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 14,
+"vertex_data": PackedByteArray("u/KBvrIuTj67Qk++AAAAAHbhRz7GNaa+AAAAAJRPXz7Ee56+ucZ3PpRPXz67Qk++u/KBPrIuTj67Qk+++gqiPm1vRz7+8JM9oaOdPpRPXz7+8JM9PzsQPrIuTj4SwJU+u/KBvpRPXz67Qk+++gqivrIuTj7+8JM9PzsQPpRPXz4SwJU+PzsQvrIuTj4SwJU+kGacvpRPXz7+8JM9PzsQvpRPXz4SwJU+")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_x7o1j"]
+resource_name = "Grass Platform_GrassPlatform_Cylinder_001-Mesh"
+_surfaces = [{
+"aabb": AABB(-0.31649, 0.027546, -0.324629, 0.63298, 0.173804, 0.61711),
+"attribute_data": PackedByteArray("kiQAAJIkh0MAAIdDAAAAAEiSAADatodDSJKHQ9q2AAC2bQAASJKHQ7Zth0NIkgAAtm0AALZth0MkSYdDJEkAACRJAAAkSYdDkiSHQ5IkAADatgAAbNuHQ9q2h0Ns2wAA//8AAP//h0Ns24dDbNsAAOnh/3///4dDgfn/f2zbh0NXvf9/bNuHQ+/U/3/atodDxZj/f9q2h0NdsP9/SJKHQzN0/39IkodDy4v/f7Zth0OhT/9/tm2HQzln/38kSYdDDyv/fyRJh0OnQv9/kiSHQ30G/3+SJIdDFR7/fwAAh0NamdHI/79cmAGhSKfMrrXjpObRyDHRteP83kin"),
+"format": 34896613399,
+"index_count": 99,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABQAEAAcACAAJAAoACQAIAAsADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFQAUABcAGAAZABoAGgAbABgAHAAdAB4AHQAcAB8AIAAhACIAIQAgACMAJAAlACYAJQAkACcAKAApACoAKQAoACsALAAtAC4ALQAsAC8AMAAxADIAMQAwADMANAA1ADYANQA0ADcAOAA5ADoAOwA5ADgAOQA7ADwAPAA7AD0AOQA8AD4A"),
+"material": SubResource("StandardMaterial3D_wqh21"),
+"name": "Dirt",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 63,
+"vertex_data": PackedByteArray("Whn//7Mytu1aGUqBszK27f9/73gAALbt/3/u9gAAtu32uP////+WpP//73ihpJSk9rgLhv//lqT//0r2oaSUpAhH/////5SC9rgLhv//cIAIRz2m//8ng/a4/////wCACEf/////uqQIRz2m///RpAAA73ihpJKkAAD//6GkkaQAAP//oaQkyQAA73ihpCTJWhlKgbMyI8laGf//szIjyf//SvahpC7JpOZfmrMyJsn//+94oaQxyaTm//+zMiTJ/3/u9gAAuO3/f+94AAC57aTmX5qzMrbtpOb//7Mytu04wgAAf1Ce7v9/73gAAF/u/38AAMkv9+2k5l+aszLd7pPSAAD/mVTPpOZfmrMyjc84wgAAf1Dnz///73ihpBjPv6QAAPHUBLL//+94oaTvsZPSAAD/mdGx9rgLhv//F7I/WwAA8dR0oPa4C4b//2ygv6QAAPHUZKAIRz2m//9/oGstAAD/mQawCEc9pv//vK8/WwAA8dRKrwAA73ihpF2wxj0AAH9QZs8AAO94oaR2z2stAAD/mY3PWhlKgbMyWM//fwAAyS9P71oZSoGzMj/vxj0AAH9QJu//f+94AABf72stAAD/mf8//38AAMkv/z/GPQAAf1D/Pz9bAADx1P8/k9IAAP+Z/z+/pAAA8dT/PzjCAAB/UP8/loGz/o+Buf6qgaP+sYGd/tWBpwWIgbgE7YHuBXGBcQT/f/9//3//f/9//3//f///HI8V+1uSB/rxggr//3////d+JP67frj9vn+J//9///88eFEEPHwXAl13zQRcfXcBYoRjBeeEBgYJgoACYIGxAcd5LiwueYEsNXgILV962ysDZeU4j2W+OGhmgThuZA85pU0NTF5NEkzyTBpM500ITOIJb4LXCEaD4wbZhAgLgoEZNeHQEzXyzwk1aM4gNenRI0Vy5SxFleU7RcjlGkVT5SpRxfcWUZ/3+FBp9z1R6PcAAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/")
+}, {
+"aabb": AABB(-0.31649, 0.194761, -0.324629, 0.63298, 0.023316, 0.61711),
+"attribute_data": PackedByteArray("G0kSPgAAAAAAAAAAAAAAAAAAAAAAAAAAG0kSPgAAAAAAAIA+XI8CP1oS4D5TsRk/n8z3PvOrTT8zbX89U7EZP2xeFT4MW3c/FTaDPPOrTT/KULU+DFt3P6ht2z4AAAAAG0mSPgAAAAAbSZI+AAAAAKht2z4AAAAAc9s2PwAAAAAsSRI/AAAAACxJEj8AAAAAc9s2PwAAAAAAAIA/AAAAALltWz8AAAAAuW1bPwAAAAAAAIA/AAAAABtJkj4AAAAAG0kSPgAAAAAbSRI+AAAAABtJkj4AAAAALEkSPwAAAACobds+AAAAAKht2z4AAAAALEkSPwAAAAC5bVs/AAAAAHPbNj8AAAAAc9s2PwAAAAC5bVs/AAAAAA=="),
+"format": 34359742487,
+"index_count": 57,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABwAEAAYABgAIAAcACAAJAAcABgAKAAgACwAMAA0ADQAOAAsADwAQABEAEAAPABIAEwAUABUAFQAWABMAFwAYABkAGQAaABcAGwAcAB0AHAAbAB4AHwAgACEAIAAfACIA"),
+"material": SubResource("StandardMaterial3D_dlpqm"),
+"name": "Grass",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 35,
+"vertex_data": PackedByteArray("u/KBvrIuTj67Qk++AAAAAHbhRz7GNaa+AAAAAJRPXz7Ee56+u/KBvpRPXz67Qk++AAAAAJRPXz7Ee56+ucZ3PpRPXz67Qk++oaOdPpRPXz7+8JM9u/KBvpRPXz67Qk++PzsQvpRPXz4SwJU+kGacvpRPXz7+8JM9PzsQPpRPXz4SwJU+PzsQvrIuTj4SwJU++gqivrIuTj7+8JM9kGacvpRPXz7+8JM9PzsQvpRPXz4SwJU+oaOdPpRPXz7+8JM9PzsQPrIuTj4SwJU+PzsQPpRPXz4SwJU++gqiPm1vRz7+8JM9AAAAAHbhRz7GNaa+u/KBPrIuTj67Qk++ucZ3PpRPXz67Qk++AAAAAJRPXz7Ee56++gqivrIuTj7+8JM9u/KBvrIuTj67Qk++u/KBvpRPXz67Qk++kGacvpRPXz7+8JM9PzsQPpRPXz4SwJU+PzsQvrIuTj4SwJU+PzsQvpRPXz4SwJU+PzsQPrIuTj4SwJU+ucZ3PpRPXz67Qk+++gqiPm1vRz7+8JM9oaOdPpRPXz7+8JM9u/KBPrIuTj67Qk++rBqv4P///7+sGq/g////v6war+D///+/rBqv4P///7//f///z/7/v/9//////zzE/3//////gsD/f///fv7/v/9///////+//3///////7//f///////vxlDD5T///8/GUMPlP///z8ZQw+U////PxlDD5T///8/VcDRjf///z9VwNGN////P1XA0Y3///8/VcDRjf///z9w3mni////v3DeaeL///+/cN5p4v///79w3mni////v2sbv6z///+/axu/rP///79rG7+s////v2sbv6z///+//3//f////z//f/9/////P/9//3////8//3//f////z9q2l22////v2raXbb///+/atpdtv///79q2l22////vw==")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_k7rx8")
+
+[node name="Grass Platform" type="Node3D"]
+transform = Transform3D(4.66655, 0, 0, 0, 3.51132, 0, 0, 0, 4.84422, 0, 0, 0)
+
+[node name="GrassPlatform_Cylinder_001" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0371975, 0)
+mesh = SubResource("ArrayMesh_x7o1j")
+skeleton = NodePath("")
